@@ -42,17 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		522A382C22C3784A001BAAC0 /* Lumen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522A382C22C3784A001BAAC0 /* GitRepoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRepoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A382F22C3784A001BAAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522A383122C3784A001BAAC0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		522A383422C3784A001BAAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522A383622C3784B001BAAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A383922C3784B001BAAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522A383B22C3784B001BAAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		522A384022C3784B001BAAC0 /* LumenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522A384022C3784B001BAAC0 /* GitRepoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A384422C3784B001BAAC0 /* LumenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenTests.swift; sourceTree = "<group>"; };
 		522A384622C3784B001BAAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		522A384B22C3784B001BAAC0 /* LumenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522A384B22C3784B001BAAC0 /* GitRepoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A384F22C3784B001BAAC0 /* LumenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenUITests.swift; sourceTree = "<group>"; };
 		522A385122C3784B001BAAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522A386122C393BE001BAAC0 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -107,9 +107,8 @@
 				52D1153E22FD7AA700979916 /* View Controllers */,
 				52D1153F22FD7AD400979916 /* Detail Controllers */,
 				52D1154022FD7EA300979916 /* Template  */,
-				522A382E22C3784A001BAAC0 /* Lumen */,
-				522A384322C3784B001BAAC0 /* LumenTests */,
-				522A384E22C3784B001BAAC0 /* LumenUITests */,
+				522A382E22C3784A001BAAC0 /* GitRepoApp */,
+				522A384322C3784B001BAAC0 /* GitRepoAppTests */,
 				522A382D22C3784A001BAAC0 /* Products */,
 				522A387722DDE8F7001BAAC0 /* Frameworks */,
 			);
@@ -118,30 +117,31 @@
 		522A382D22C3784A001BAAC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				522A382C22C3784A001BAAC0 /* Lumen.app */,
-				522A384022C3784B001BAAC0 /* LumenTests.xctest */,
-				522A384B22C3784B001BAAC0 /* LumenUITests.xctest */,
+				522A382C22C3784A001BAAC0 /* GitRepoApp.app */,
+				522A384022C3784B001BAAC0 /* GitRepoAppTests.xctest */,
+				522A384B22C3784B001BAAC0 /* GitRepoAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		522A382E22C3784A001BAAC0 /* Lumen */ = {
+		522A382E22C3784A001BAAC0 /* GitRepoApp */ = {
 			isa = PBXGroup;
 			children = (
 				522A382F22C3784A001BAAC0 /* AppDelegate.swift */,
 				522A383622C3784B001BAAC0 /* Assets.xcassets */,
 				522A383B22C3784B001BAAC0 /* Info.plist */,
 			);
-			path = Lumen;
+			path = GitRepoApp;
 			sourceTree = "<group>";
 		};
-		522A384322C3784B001BAAC0 /* LumenTests */ = {
+		522A384322C3784B001BAAC0 /* GitRepoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				522A384E22C3784B001BAAC0 /* LumenUITests */,
 				522A384422C3784B001BAAC0 /* LumenTests.swift */,
 				522A384622C3784B001BAAC0 /* Info.plist */,
 			);
-			path = LumenTests;
+			path = GitRepoAppTests;
 			sourceTree = "<group>";
 		};
 		522A384E22C3784B001BAAC0 /* LumenUITests */ = {
@@ -193,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		522A382B22C3784A001BAAC0 /* Lumen */ = {
+		522A382B22C3784A001BAAC0 /* GitRepoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 522A385422C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "Lumen" */;
+			buildConfigurationList = 522A385422C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "GitRepoApp" */;
 			buildPhases = (
 				522A382822C3784A001BAAC0 /* Sources */,
 				522A382922C3784A001BAAC0 /* Frameworks */,
@@ -205,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = Lumen;
+			name = GitRepoApp;
 			productName = Lumen;
-			productReference = 522A382C22C3784A001BAAC0 /* Lumen.app */;
+			productReference = 522A382C22C3784A001BAAC0 /* GitRepoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		522A383F22C3784B001BAAC0 /* LumenTests */ = {
+		522A383F22C3784B001BAAC0 /* GitRepoAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 522A385722C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "LumenTests" */;
+			buildConfigurationList = 522A385722C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "GitRepoAppTests" */;
 			buildPhases = (
 				522A383C22C3784B001BAAC0 /* Sources */,
 				522A383D22C3784B001BAAC0 /* Frameworks */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				522A384222C3784B001BAAC0 /* PBXTargetDependency */,
 			);
-			name = LumenTests;
+			name = GitRepoAppTests;
 			productName = LumenTests;
-			productReference = 522A384022C3784B001BAAC0 /* LumenTests.xctest */;
+			productReference = 522A384022C3784B001BAAC0 /* GitRepoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		522A384A22C3784B001BAAC0 /* LumenUITests */ = {
+		522A384A22C3784B001BAAC0 /* GitRepoAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 522A385A22C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "LumenUITests" */;
+			buildConfigurationList = 522A385A22C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "GitRepoAppUITests" */;
 			buildPhases = (
 				522A384722C3784B001BAAC0 /* Sources */,
 				522A384822C3784B001BAAC0 /* Frameworks */,
@@ -241,9 +241,9 @@
 			dependencies = (
 				522A384D22C3784B001BAAC0 /* PBXTargetDependency */,
 			);
-			name = LumenUITests;
+			name = GitRepoAppUITests;
 			productName = LumenUITests;
-			productReference = 522A384B22C3784B001BAAC0 /* LumenUITests.xctest */;
+			productReference = 522A384B22C3784B001BAAC0 /* GitRepoAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -269,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 522A382722C3784A001BAAC0 /* Build configuration list for PBXProject "Lumen" */;
+			buildConfigurationList = 522A382722C3784A001BAAC0 /* Build configuration list for PBXProject "GitRepoApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -282,9 +282,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				522A382B22C3784A001BAAC0 /* Lumen */,
-				522A383F22C3784B001BAAC0 /* LumenTests */,
-				522A384A22C3784B001BAAC0 /* LumenUITests */,
+				522A382B22C3784A001BAAC0 /* GitRepoApp */,
+				522A383F22C3784B001BAAC0 /* GitRepoAppTests */,
+				522A384A22C3784B001BAAC0 /* GitRepoAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		522A384222C3784B001BAAC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 522A382B22C3784A001BAAC0 /* Lumen */;
+			target = 522A382B22C3784A001BAAC0 /* GitRepoApp */;
 			targetProxy = 522A384122C3784B001BAAC0 /* PBXContainerItemProxy */;
 		};
 		522A384D22C3784B001BAAC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 522A382B22C3784A001BAAC0 /* Lumen */;
+			target = 522A382B22C3784A001BAAC0 /* GitRepoApp */;
 			targetProxy = 522A384C22C3784B001BAAC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -492,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -507,12 +507,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lumen/Info.plist;
+				INFOPLIST_FILE = GitRepoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Future.Lumen;
+				PRODUCT_BUNDLE_IDENTIFIER = Future.GitRepoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,12 +524,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lumen/Info.plist;
+				INFOPLIST_FILE = GitRepoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Future.Lumen;
+				PRODUCT_BUNDLE_IDENTIFIER = Future.GitRepoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,7 +552,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumen.app/Lumen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRepoApp.app/GitRepoApp";
 			};
 			name = Debug;
 		};
@@ -572,7 +572,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumen.app/Lumen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRepoApp.app/GitRepoApp";
 			};
 			name = Release;
 		};
@@ -617,7 +617,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		522A382722C3784A001BAAC0 /* Build configuration list for PBXProject "Lumen" */ = {
+		522A382722C3784A001BAAC0 /* Build configuration list for PBXProject "GitRepoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				522A385222C3784B001BAAC0 /* Debug */,
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		522A385422C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "Lumen" */ = {
+		522A385422C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "GitRepoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				522A385522C3784B001BAAC0 /* Debug */,
@@ -635,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		522A385722C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "LumenTests" */ = {
+		522A385722C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "GitRepoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				522A385822C3784B001BAAC0 /* Debug */,
@@ -644,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		522A385A22C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "LumenUITests" */ = {
+		522A385A22C3784B001BAAC0 /* Build configuration list for PBXNativeTarget "GitRepoAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				522A385B22C3784B001BAAC0 /* Debug */,

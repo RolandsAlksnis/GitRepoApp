@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Lumen.xcodeproj">
+      location = "self:/Users/rolands.alksins/Desktop/Lumen/GitRepoApp.xcodeproj">
    </FileRef>
 </Workspace>
